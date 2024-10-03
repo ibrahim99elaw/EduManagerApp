@@ -59,6 +59,10 @@ h1 {
 
 .download-buttons a span {
     font-size: 18px;
+    margin-right: 30px;
+}
+.download-buttons a i{
+    font-size: 22px;
 }
 
 @media (min-width: 768px) {
