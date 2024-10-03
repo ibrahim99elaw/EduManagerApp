@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.app-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.download-buttons a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.download-buttons a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.android-button {
+    background-color: #000;
+}
+
+.ios-button {
+    background-color: #000;
+}
+
+.download-buttons a span {
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 40%;
+    }
+}
